@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shyam",
@@ -15,5 +16,8 @@
     "npm": "^10.8.2",
     "socket.io": "^4.7.5"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "16.x.x"
+  }
 }
